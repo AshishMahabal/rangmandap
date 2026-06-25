@@ -101,6 +101,7 @@ html[lang="hi"] .eyebrow, html[lang="mr"] .eyebrow { letter-spacing: .08em; }
 .nav a { font-family: var(--font-body); font-size: .95rem; font-weight: 500; color: var(--ink-soft); }
 .nav a:hover, .nav a.active { color: var(--maroon); }
 .nav a.active { border-bottom: 2px solid var(--gold); padding-bottom: 2px; }
+.nav-tickets { display: none; } /* shown only inside the mobile dropdown */
 
 .header-actions { display: flex; align-items: center; gap: 1rem; }
 
@@ -227,7 +228,15 @@ html[lang="hi"] .footer-col h4, html[lang="mr"] .footer-col h4 { letter-spacing:
     transform: translateY(-130%); transition: transform .3s ease; box-shadow: var(--shadow); }
   .nav.open { transform: translateY(0); }
   .nav a.active { border-bottom: 0; color: var(--maroon); }
+  .nav-tickets { display: inline-flex; margin-top: .4rem; }
   .menu-toggle { display: block; }
+
+  /* declutter the bar: the logo is already a wordmark */
+  .brand span { display: none; }
+  .brand img { height: 30px; }
+  .header-actions { gap: .6rem; }
+  .header-actions > .btn { display: none; } /* tickets moves into the menu */
+  .lang button { padding: .32rem .5rem; font-size: .78rem; }
   .hero-grid, .split, .split.reverse, .contact-grid { grid-template-columns: 1fr; }
   .split.reverse .split-media { order: 0; }
   .grid.cols-2, .grid.cols-3 { grid-template-columns: 1fr; }

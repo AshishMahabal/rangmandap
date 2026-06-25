@@ -20,6 +20,7 @@ function headerHTML(page) {
         ${link("contribute", "contribute", "contribute.html")}
         ${link("about", "about", "about.html")}
         ${link("contact", "contact", "contact.html")}
+        <a href="${TICKETS_URL}" class="btn nav-tickets" target="_blank" rel="noopener" data-i18n="cta.tickets"></a>
       </nav>
       <div class="header-actions">
         <div class="lang" role="group" aria-label="Language">
