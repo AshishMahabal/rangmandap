@@ -2,7 +2,7 @@
    Rangmandap — shared header/footer injection + interactions
    ========================================================================== */
 
-const TICKETS_URL = "https://rangamandap.com";
+const TICKETS_URL = "https://rangmandap.com";
 const LOGO = "assets/images/events/gray-logo-removebg.png";
 
 function headerHTML(page) {

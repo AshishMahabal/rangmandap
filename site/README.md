@@ -5,7 +5,7 @@ performing-arts space in Nagpur (managed by the Nirupak Foundation).
 
 - **No build step, no framework** — plain HTML, CSS and a little vanilla JS.
 - **Three languages** in one set of pages: English, हिन्दी, मराठी.
-- Ticketing links out to **rangamandap.com**.
+- Ticketing links out to **rangmandap.com**.
 - Content and images are based on the existing site at rangmandap.org.
 
 ## Pages

@@ -142,7 +142,7 @@ const I18N = {
     "footer.terms": "Terms &amp; Conditions",
     "footer.refund": "Refund &amp; Return",
     "footer.rights": "© 2026 Rangmandap · Nirupak Foundation. All rights reserved.",
-    "footer.tickets.note": "Tickets at rangamandap.com"
+    "footer.tickets.note": "Tickets at rangmandap.com"
   },
 
   hi: {
@@ -275,7 +275,7 @@ const I18N = {
     "footer.terms": "नियम एवं शर्तें",
     "footer.refund": "रिफंड एवं वापसी",
     "footer.rights": "© 2026 रंगमंडप · निरूपक फ़ाउंडेशन। सर्वाधिकार सुरक्षित।",
-    "footer.tickets.note": "टिकट rangamandap.com पर"
+    "footer.tickets.note": "टिकट rangmandap.com पर"
   },
 
   mr: {
@@ -408,7 +408,7 @@ const I18N = {
     "footer.terms": "अटी व शर्ती",
     "footer.refund": "परतावा व परतफेड",
     "footer.rights": "© 2026 रंगमंडप · निरूपक फाउंडेशन. सर्व हक्क राखीव.",
-    "footer.tickets.note": "तिकिटे rangamandap.com वर"
+    "footer.tickets.note": "तिकिटे rangmandap.com वर"
   }
 };
 
