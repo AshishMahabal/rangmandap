@@ -102,6 +102,9 @@ html[lang="hi"] .eyebrow, html[lang="mr"] .eyebrow { letter-spacing: .08em; }
 .nav a:hover, .nav a.active { color: var(--maroon); }
 .nav a.active { border-bottom: 2px solid var(--gold); padding-bottom: 2px; }
 .nav-tickets { display: none; } /* shown only inside the mobile dropdown */
+/* keep white button text — `.nav a` would otherwise override `.btn`'s colour */
+.nav a.nav-tickets,
+.nav a.nav-tickets:hover { color: var(--white); border-bottom: 0; }
 
 .header-actions { display: flex; align-items: center; gap: 1rem; }
 
